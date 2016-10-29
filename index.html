@@ -1,1 +1,698 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <script src="https://use.fontawesome.com/b78ea84865.js"></script>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="ico/favicon.ico">
+
+    <title>AS Bienes Inmobiliarios</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Font -->
+  <link href="fonts/open-sans/stylesheet.css" rel="stylesheet">
+  <link href="fonts/oswald/stylesheet.css" rel="stylesheet">
+  
+    <!-- Icons -->
+    <link href="css/icons.css" rel="stylesheet">
+  
+    <!-- Owl Carousel -->
+    <link href="css/owl/owl.carousel.css" rel="stylesheet">  
+    <link href="css/owl/owl.theme.css" rel="stylesheet">  
+    <link href="css/owl/owl.transitions.css" rel="stylesheet">  
+
+    <!-- Masonry -->
+    <link href="css/masonry.css" rel="stylesheet">
+    
+    <!-- prettyPhoto -->  
+  <link type="text/css" rel="stylesheet" href="css/prettyPhoto.css">
+  
+    <!-- Custom bootstrap styles -->
+    <link href="css/overwrite.css" rel="stylesheet">
+
+    <!-- Jssor Slider --> 
+  <link href="css/jssor.css" rel="stylesheet">  
+  
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Styles for color skins -->
+    <link id="skin" href="skins/default.css" rel="stylesheet">
+  
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  <!-- Start preloading -->
+  <div id="loading" class="loading-invisible">
+    <div class="loading-center">
+      <div class="loading-center-absolute">
+        <div class="object" id="first_object"></div>
+        <div class="object" id="second_object"></div>
+        <div class="object" id="third_object"></div>
+      </div>
+      <p>Cargando...</p>
+    </div>
+  </div>
+  <script type="text/javascript">
+      document.getElementById("loading").className = "loading-visible";
+      var hideDiv = function(){document.getElementById("loading").className = "loading-invisible";};
+      var oldLoad = window.onload;
+      var newLoad = oldLoad ? function(){hideDiv.call(this);oldLoad.call(this);} : hideDiv;
+      window.onload = newLoad;
+  </script>
+  <!-- End preloading -->
+  
+  <!-- Start top section -->
+  <div class="top-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <ul class="top-contact">
+            <li>
+              <i class="icon-tablet icon-circle"></i>
+              <h6>Call center</h6>
+              <span>301 649 0206</span>
+            </li>
+            <li>
+              <i class="icon-envelope icon-circle"></i>
+              <h6>Email</h6>
+              <span>info@asbienesinmobiliarios.com</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- End top section -->
+  
+  <!-- Start navbar -->
+  <nav class="navbar navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" /></a> -->
+          <!-- <a class="navbar-brand" href="#"><img src="img/logo2.png" alt="" /></a> -->
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" /></a>
+        </div>
+        
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li class="scroll active"><a href="#home">Inicio</a></li>
+            <li class="scroll"><a href="#about">Conócenos</a></li>
+            <li class="scroll"><a href="#services">Servicios</a></li>
+            <li class="scroll"><a href="#features">Features</a></li>
+            <li class="scroll"><a href="#contact">Contacto</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </nav>
+  <!-- End navbar -->
+  
+  <!-- Start home -->
+  <section id="home">
+        <!-- Jssor Slider Begin -->
+        <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
+        <div id="slider2_container" class="slider2_container" style="height:1028px">
+            <!-- Slides Container -->
+            <div data-jssor="slides" class="slides" style="height:1028px">
+                <div>
+          <img data-jssor="image" src="img/slider/jssor/skyline-buildings.jpg" alt="" />
+                    <div data-jssor="caption" data-trans="ZMS|B" class="jos-cap" style="left:280px;top:190px;">
+            <!-- <img src="img/slider/jssor/worker1.png" alt="" /> -->
+          </div>
+                    <div data-jssor="caption" data-trans="CLIP|LR" class="jos-cap jos-contain" style="left:890px;top:480px;">
+            <h3>Somos AS Bienes Inmobiliarios</h3>
+            <p>
+
+            Estamos comprometidos en atender puntualmente cada uno de tus requerimientos y en brindarte el mejor servicio para que siempre estés satisfecho.
+
+            </p>
+          </div>
+          <a href="#about" data-jssor="caption" data-trans="CLIP|LR" class="jos-cap jos-btn" style="left:1340px;top:728px;">Leer más</a>
+                </div>
+                <div>
+          <img data-jssor="image" src="img/slider/jssor/lake-mountain.jpeg" alt="" />
+                    <div data-jssor="caption" data-trans="ZMS|B" class="jos-cap" style="left:880px;top:190px;">
+            <!-- <img src="img/slider/jssor/worker2.png" alt="" /> -->
+          </div>
+                    <div data-jssor="caption" data-trans="CLIP|LR" class="jos-cap jos-contain" style="left:250px;top:480px;">
+            <h3>Somos As Bienes Inmobiliarios</h3>
+            <p>
+
+            Una empresa consolidada, confiable y con experiencia con la cual podrás contar para sacar tus proyectos adelante.
+
+            </p>
+          </div>
+          <a href="#features" data-jssor="caption" data-trans="CLIP|LR" class="jos-cap jos-btn" style="left:700px;top:728px;">Leer más</a>
+                </div>
+                <div>
+          <img data-jssor="image" src="img/slider/jssor/beach.jpg" alt="" />
+                    <div data-jssor="caption" data-trans="ZMS|B" class="jos-cap" style="left:250px;top:190px;">
+            <!-- <img src="img/slider/jssor/worker3.png" alt="" /> -->
+          </div>
+                    <div data-jssor="caption" data-trans="CLIP|LR" class="jos-cap jos-contain" style="left:890px;top:480px;">
+            <h3>Somos As Bienes Inmobiliarios</h3>
+            <p>
+
+            Te brindamos multiples servicios inmobilarios y la asesoria que necesitas para hacer tus sueños realidad.
+
+            </p>
+          </div>
+          <a href="#services" data-jssor="caption" data-trans="CLIP|LR" class="jos-cap jos-btn" style="left:1340px;top:728px;">Leer más</a>
+                </div>
+            </div>
+        </div>
+        <!-- Jssor Slider End -->
+  </section> 
+  <!-- End home -->
+  
+    <div class="clearfix"></div> 
+      
+    <!-- Start Progress Box -->  
+    <div class="progress-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+          <div class="item-box">
+            <i class="icon-bubbles4 icon-square icon-4x"></i>
+            <h5>Disponibilidad Inmediata</h5>
+            <p>
+            Ayudarte es nuestra prioridad. Estamos disponibles para ti cuando lo necesites.
+            </p>
+          </div>
+       
+          <div class="item-box action-box">
+            <i class="icon-search icon-square icon-4x"></i>
+            <h5>Asesoria Personalizada</h5>
+            <p>
+            Te ayudamos a encontrar lo que mejor se adapte a tus necesidades.
+            </p>
+            <a href="#contact" class="btn btn-primary">Contactanos</a>
+          </div>
+
+
+          <div class="item-box">
+            <i class="icon-home3 icon-square icon-4x"></i>
+            <h5>Nuevo Hogar !</h5>
+            <p>
+             Ven, y junto a nosotros, encuentra el hogar que siempre soñaste.
+            </p>
+          </div>
+                </div>
+            </div>
+        </div>  
+    </div>  
+    <!-- End Progress Box -->  
+     
+    <div class="clearfix"></div>  
+  
+  <!-- Start about -->
+  <div id="about" class="wrapper half-gray-right">
+    <div class="container">
+      <div class="row">
+        <div class="heading">
+          <div>
+            <span>Quienes somos?</span>
+            <h3>Acerca de nosotros</h3>
+          </div>
+        </div>
+        <div class="col-md-10 col-md-offset-2">
+          <div class="contain">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <!-- Start Video -->
+                                <div class="video-wrapper">
+                   <div class="video-contain">
+                    <img src="img/about-us.jpeg" class="img-video" alt="" />
+                    <button class="start-video"></button>
+                    <div class="video-container">
+                      <div id="" class=""></div>
+                    </div>
+                  </div>
+                                </div>
+                                <!-- End Video -->
+                            </div>
+                            <div class="col-md-5">
+                                <h5>SOLUCIONES IMNOBILIARIAS PARA FAMILIAS Y EMPRESAS</h5>
+                                <p>
+                                 AS Bienes Inmobiliarios es una Compañía que brinda soluciones de vivienda para las familias Bogotanas y  designa espacios adecuados para las empresas; contribuyendo al desarrollo de la sociedad y de quienes la conforman.
+                                </p>
+                                <a href="#features" class="btn btn-inverse">Ver Caracteristicas</a>
+                            </div>
+                        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End about -->
+
+  <!-- Start Separator -->
+  <div class="dark-wrapper">
+    <div class="container">
+      <div class="dark-section">
+        <div class="row">
+          <div class="">
+            <i class="icon"></i>
+          </div>
+          <div class="col-md-4 col-md-offset-2">
+
+          </div>
+          <div class="col-md-6">
+            <div class="form-subscribe">
+            <br>
+            <br>
+            <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <!-- End Separator -->
+  
+  <!-- Start services -->
+  <div id="services" class="wrapper half-gray-right">
+    <div class="container">
+      <div class="row">
+        <div class="heading">
+          <div>
+            <span>¿Qué hacemos?</span>
+            <h3>Servicios</h3>
+          </div>
+        </div>
+        <div class="col-md-10 col-md-offset-2">
+          <div class="contain">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <!-- Start Item Service -->
+                                <div class="row wrap-service">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="item-service">
+                                            <i class="icon-user-plus icon-text icon-4x"></i>
+                                            <h5>Captación de Clientes</h5>
+                                            <p>
+                                                Ea cetero periculis persecuti nec, te soleat denique scribentur vel. Qui te assum putent qui elitr animal. Habemus lobortis pericula.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="item-service">
+                                            <!-- <i class="icon-phone icon-text icon-4x"></i> -->
+                                            <i class="fa fa-phone fa-4x"  aria-hidden="true"></i>
+                                            <h5>Atención Telefonica</h5>
+                                            <p>
+                                                Ea cetero periculis persecuti nec, te soleat denique scribentur vel. Qui te assum putent qui elitr animal. Habemus lobortis pericula.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="item-service">
+                                            <i class="icon-home3 icon-text icon-4x"></i>
+                                            <h5>Venta, Alquiler y Asesoria  en inversion</h5>
+                                            <p>
+                                                Ea cetero periculis persecuti nec, te soleat denique scribentur vel. Qui te assum putent qui elitr animal. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="item-service">
+                                            <i class="fa fa-bar-chart fa-4x"  aria-hidden="true"></i>
+                                            <h5>Asesoria en aseguramiento</h5>
+                                            <p>
+                                                Ea cetero periculis persecuti nec, te soleat denique scribentur vel. Qui te assum putent qui elitr animal.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="item-service">
+                                            <i class="fa fa-desktop fa-4x"  aria-hidden="true"></i>
+                                            <h5>Publicacion Web de Inmuebles</h5>
+                                            <p>
+                                                Ea cetero periculis persecuti nec, te soleat denique scribentur vel. Qui te assum putent qui elitr animal.
+                                            </p>
+                                        </div>
+                                    </div>
+                                                                        <div class="col-md-6 col-sm-6">
+                                        <div class="item-service">
+                                            <i class="fa fa-leaf fa-4x"  aria-hidden="true"></i>
+                                            <h5>Estudios de Zona</h5>
+                                            <p>
+                                                Ea cetero periculis persecuti nec, te soleat denique scribentur vel. Qui te assum putent qui elitr animal.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Item Service -->    
+                            </div>
+                        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End services -->
+
+  <!-- Start Separator -->
+  <div class="dark-wrapper">
+    <div class="container">
+      <div class="dark-section">
+        <div class="row">
+          <div class="">
+            <i class="icon"></i>
+          </div>
+          <div class="col-md-4 col-md-offset-2">
+
+          </div>
+          <div class="col-md-6">
+            <div class="form-subscribe">
+            <br>
+            <br>
+            <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <!-- End Separator -->
+  
+  <!-- Start features -->
+  <div id="features" class="wrapper half-gray-left">
+    <div class="container">
+      <div class="row">
+        <div class="heading">
+          <div>
+            <span>¿Por qué elegirnos?</span>
+            <h3>Features</h3>
+          </div>
+        </div>
+        <div class="col-md-10">
+          <div class="contain">
+            <div class="row wrap-features">
+                            <!-- Start Feature 01 -->
+                            <div class="col-md-4 col-sm-6">
+                                <div class="item-feature">
+                                    <i class="icon-profile icon-square icon-4x"></i>
+                                    <h5>Certificados</h5>
+                                    <p>
+                                     Matricula de arrendamiento 20140128 otorgada por el Ministerio de Habitat.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Feature 01 -->
+                            <!-- Start Feature 02 -->
+                            <div class="col-md-4 col-sm-6">
+                                <div class="item-feature">
+                                    <i class="icon-trophy2 icon-square icon-4x"></i>
+                                    <h5>Calidad</h5>
+                                    <p>
+                                     Nos destacamos por brindarte un servicio de exelente calidad.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Feature 02 -->
+                            <!-- Start Feature 03 -->
+                            <div class="col-md-4 col-sm-6">
+                                <div class="item-feature">
+                                    <i class="icon-alarm icon-square icon-4x"></i>
+                                    <h5>Procesos Rápidos</h5>
+                                    <p>
+                                     Nuestra prioridad es ayudarte a agilizar tus tramites.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Feature 03 -->
+                            <!-- Start Feature 04 -->
+                            <div class="col-md-4 col-sm-6">
+                                <div class="item-feature">
+                                    <i class="icon-smile icon-square icon-4x"></i>
+                                    <h5>Magnífico Soporte</h5>
+                                    <p>
+                                     Amabilidad y vocacion de servicio con el cliente, caracteristicas que nos definen.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Feature 04 -->
+                            <!-- Start Feature 05 -->
+                            <div class="col-md-4 col-sm-6">
+                                <div class="item-feature">
+                                    <i class="icon-laptop2 icon-square icon-4x"></i>
+                                    <h5>Presencia Online</h5>
+                                    <p>
+                                     Publicamos tus inmuebles en unos de los portales web mas importantes a nivel mundial.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Feature 05 -->
+                            <!-- Start Feature 06 -->
+                            <div class="col-md-4 col-sm-6">
+                                <div class="item-feature">
+                                    <i class="icon-search icon-square icon-4x"></i>
+                                    <h5>Asesoria Personalizada</h5>
+                                    <p>
+                                       Te ayudamos a encontrar lo que mejor se adapte a tus necesidades. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End features --> 
+
+  
+  <!-- Start Separator -->
+  <div class="dark-wrapper">
+    <div class="container">
+      <div class="dark-section">
+        <div class="row">
+          <div class="">
+            <i class="icon"></i>
+          </div>
+          <div class="col-md-4 col-md-offset-2">
+
+          </div>
+          <div class="col-md-6">
+            <div class="form-subscribe">
+            <br>
+            <br>
+            <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <!-- End Separator -->
+  
+  <!-- Start contact -->
+  <div id="contact" class="wrapper half-gray-left">
+    <div class="container">
+      <div class="row">
+        <div class="heading">
+          <div>
+            <span>¿Tienes alguna duda?</span>
+            <h3>Contacto</h3>
+          </div>
+        </div>
+        <div class="col-md-10">
+          <div class="contain">
+            <!-- Start Form -->
+                        <form method="post" id="mycontactform">
+                            <div class="clearfix"></div>
+                            <div id="success" style="color:red;"></div>
+                            <div class="row wrap-form">
+                                <div class="form-group col-md-6 col-sm-6">
+                                    <label>Nombre Completo</label>
+                                    <input type="text" name="name" id="name" class="form-control input-lg required" placeholder="Ingresa tu nombre completo ...">
+                                    <span data-for="name" class="error"></span>
+                                </div>
+                                <div class="form-group col-md-6 col-sm-6">
+                                    <label>Email</label>
+                                    <input type="email" name="email" id="email" class="form-control input-lg required" placeholder="Ingresa tu correo electrónico...">
+                                    <span data-for="email" class="error"></span>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label>Tu Mensaje</label>
+                                    <textarea name="message" id="message" class="form-control input-lg required" placeholder="Escribenos tu mensaje..." rows="9"></textarea>
+                                    <span data-for="message" class="error"></span>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <input type="submit" value="Enviar Mensaje" id="submit" class="btn btn-primary btn-lg"/>
+                                    <div class="status-progress"></div>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- End Form -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End contact -->
+  
+    <div class="clearfix"></div>
+    
+    <!-- Start Footer -->
+    <footer>
+        <!-- Start Main Footer -->
+        <div class="main-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- Start Widget -->
+                        <div class="widget-footer">
+                            <div class="title-widget">
+                                <h5>Recuerda...</h5>
+                            </div>
+                            <div class="body-widget">
+                                <p>
+                                  “Algunas personas quieren que algo ocurra, otras sueñan con que pasará, otras hacen que suceda"
+                                </p>
+                                  -Michael Jordan
+                            </div>
+                        </div>
+                        <!-- End Widget -->
+                    </div>
+
+                    <div class="col-md-6">
+                        <!-- Start Widget -->
+                        <div class="widget-footer">
+                            <div class="title-widget">
+                                <h5>Síguenos</h5>
+                            </div>
+                            <div class="body-widget">
+                                <!-- Start Social Network -->
+                                <ul class="social-network">
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="img/fincaraiz.jpg" alt="" />
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- End Social Network -->
+                            </div>
+                        </div>
+                        <!-- End Widget -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Main Footer -->
+    
+        <!-- Start Sub Footer -->
+        <div class="sub-footer">
+            2016 &copy; Copyright As Bienes Inmobiliarios All rights Reserved.
+        </div>
+        <!-- End Sub Footer -->
+    </footer> 
+    <!-- End Footer -->  
+  
+    <!-- Start Scroll to top -->  
+    <div class="scroll-top scroll">
+        <a href="#home"><i class="icon-arrow-up2"></i></a>  
+    </div>  
+    <!-- End Scroll to top -->  
+  
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing-1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  
+    <!-- Bootstrap Scrollspy -->
+    <script src="js/scrollspy/scrollspy.js"></script>  
+  
+    <!-- Master Slider -->
+    <script type="text/javascript" src="js/jssor/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor/jssor.slider.js"></script>
+    <script type="text/javascript" src="js/jssor/setting.js"></script>
+      
+    <!-- Owl Carousel -->
+    <script src="js/owl/owl.carousel.min.js"></script> 
+      
+    <!-- masonry -->
+  <script src="js/masonry/masonry-3.1.4.js"></script> 
+  <script src="js/masonry/masonry.filter.js"></script>
+  <script src="js/masonry/setting.js"></script>
+  
+    <!-- prettyPhoto -->
+  <script src="js/prettyPhoto/jquery.prettyPhoto.js"></script>
+      
+    <!-- ticker -->
+  <script src="js/ticker/ticker.js"></script>
+      
+    <!--[if lte IE 9]>
+      <script src="js/tweecool/jquery.xdomainrequest.min.js"></script>      
+  <![endif]-->
+  <!-- Twitter Feed -->
+  <script src="js/tweecool/tweecool.js"></script>
+  
+    <!-- Start Form Plugin -->
+  <script src="js/validation/jquery.validate.min.js"></script>
+      
+  <!-- custom javascript -->
+  <script src="js/custom.js"></script>
+  
+    <!-- Start Video API -->
+      <script>
+    // Load the IFrame Player API code asynchronously.
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/player_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // Replace the 'ytplayer' element with an <iframe> and
+    // YouTube player after the API code downloads.
+    var player;
+    function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+      height: 'auto',
+      width: '100%',
+      videoId: 'mdfMT5Zi8Eo',
+     playerVars: {
+      'autoplay': 0,
+      'rel': 0,
+      'showinfo': 0,
+      'html5':1,
+      'allowscriptaccess':'always',
+      }
+    });
+    }
+    </script>
+  </body>
+</html>

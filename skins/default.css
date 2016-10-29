@@ -1,0 +1,166 @@
+/* ==============================================================
+
+Template name : Dangdosan modern construction template
+Categorie : landing page
+Author : Nce18cex
+Version : v1.0.0
+Created : 10 November 2015
+Last update : 22 November 2015
+
+-----------------------------------------------------------------
+CSS structure
+-----------------------------------------------------------------
+
+01. Color
+02. Background color
+03. Border color
+	
+============================================================== */
+
+/*
+Color
+=========================== */
+a,
+a:hover,
+a:focus,
+a:active,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:active,
+.navbar-nav > li.active > a,
+.navbar-nav > li.active > a:hover,
+.navbar-nav > li.active > a:focus,
+.navbar-nav > li.active > a:active,
+.icon-circle,
+.icon-square,
+.search-wrapper button,
+.slider-wrapper .title,
+ul.filter-items li span:hover,
+ul.recent-post .meta-post,
+ul.recent-post li a:hover,
+ul.social-network li a:hover,
+ul.social-network li a:focus,
+.breadcrumb li a:hover,
+article h5 a:hover,
+.cat li a:hover{
+	color:#ffcb27;
+}
+
+/*
+Background color
+=========================== */
+#loading,
+.heading,
+.navbar-toggle:hover .icon-bar,
+.btn-primary,
+.navigation a:hover,
+.navigation a.btn-next.next-testimoni:hover,
+.navigation a.btn-prev.prev-testimoni:hover,
+.item-team:hover .content,
+.item-team .wrap-img .social-link ul li a:hover,
+.item-service:hover,
+.item-gallery .overlay:before,
+.item-gallery .action a.zoom,
+ul.filter-items li:focus span,
+ul.filter-items li.active span,
+ul.filter-items li.active:hover span,
+.main-footer .widget-footer .title-widget,
+.scroll-top a,
+.dark-overlay,
+.testimoni-overlay,
+.icon-title,
+.tweet-follow,
+.post-meta li:hover,
+.tags li a:hover,
+ul.pagination li a:hover,
+ul.pagination li a:focus,
+.jos-contain,
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus{
+	background-color:#ffcb27;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:hover,
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus{
+	background-color:#e4b214;
+}
+
+/*
+Border color
+=========================== */
+.search:focus,
+.navbar-toggle:hover,
+.btn-primary,
+.item-service:hover,
+.form-control:focus,
+.subscribe-input:focus,
+.tags li a:hover,
+ul.pagination li a:hover,
+ul.pagination li a:focus,
+.tab-content{
+	border-color:#ffcb27;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:hover,
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus{
+	border-color:#e4b214;
+}

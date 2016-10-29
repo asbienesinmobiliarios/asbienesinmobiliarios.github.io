@@ -1,0 +1,47 @@
+.slider2_container{
+    width: 1920px;
+    height: 980px;
+    position: relative;
+}
+
+.slides{
+    cursor: move; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    width: 1920px; 
+    height: 980px;
+    overflow: hidden;
+}
+
+.jos-cap{
+    position:absolute;
+    color:#fff;
+}
+
+.jos-contain{
+	width:640px;
+	padding:50px 60px 40px 60px;
+	font-size:22px;
+	line-height:30px;
+	color:#333;
+}
+
+.jos-btn{
+	display: inline-block;
+	padding: 20px 38px;
+	margin-bottom: 0;
+	font-size: 24px;
+	font-weight:700;
+	line-height: 1.42857143;
+	text-transform:uppercase;
+	background:#333;
+	color:#fff;
+}
+
+.jos-btn:hover,
+.jos-btn:focus{
+	background:#222;
+	color:#fff;
+	text-decoration:none;
+}
