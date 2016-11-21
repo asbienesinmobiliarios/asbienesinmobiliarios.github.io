@@ -161,7 +161,25 @@ ul.top-contact li .icon-circle{
 	background:none;
 	border:1px solid #f2f2f2;
 }
+.contact{
+	margin:0;
+	padding: 1px;
+	float:relative;
+	margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+i.contact{
+text-align: center
+}
+h6.contact{
+text-align: center
 
+}
+span.contact{
+text-align: center
+
+}
 .search-wrapper{
 	float:right;
 	width:220px;
