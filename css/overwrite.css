@@ -21,7 +21,7 @@ CSS structure
 08. Pagination
 09. Form
 10. Button
-	
+
 ============================================================== */
 
 /*
@@ -216,6 +216,7 @@ Navbar
 .navbar-brand {
 	float: left;
 	height: auto;
+  background:#fff;
 	padding:0 15px;
 }
 
@@ -466,7 +467,7 @@ Form
 }
 
 input.form-control{
-    height: 42px;  
+    height: 42px;
 }
 
 input.form-control.input-sm{
@@ -478,7 +479,7 @@ input.form-control.input-lg{
 }
 
 select.form-control{
-    height: 56px;  
+    height: 56px;
 }
 
 select.form-control.input-sm{
